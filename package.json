@@ -1,0 +1,43 @@
+{
+  "name": "heather",
+  "version": "1.0.0",
+  "description": "My glorious Nuxt.js project",
+  "author": "Matthieu Paindavoine",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^2.6.0",
+    "@nuxtjs/style-resources": "^0.1.2",
+    "date-fns": "^1.30.1",
+    "front-matter": "^3.0.2",
+    "markdown-it": "^10.0.0",
+    "markdown-it-gridtables": "^0.1.1",
+    "nuxt": "^2.9.2",
+    "slugify": "^1.3.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "@nuxtjs/eslint-module": "^0.0.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.16.4"
+  }
+}
